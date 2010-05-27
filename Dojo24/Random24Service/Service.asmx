@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="Service.asmx.cs" Class="Random24Service.Service1" %>
