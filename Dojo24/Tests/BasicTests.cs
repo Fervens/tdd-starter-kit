@@ -7,13 +7,13 @@ using NUnit.Framework;
 namespace Tests
 {
    [TestFixture]
-   public class TestBasics
+   public class BasicTests
    {
       [Test]
       public void Test_Truth()
       {
          bool expected = true;
-         Assert.AreEqual(expected, false);
+         Assert.AreEqual(expected, true);
       }
    }
 }
