@@ -17,6 +17,8 @@ namespace Dojo24
             throw new ArgumentException("Values must be between 1 and 9");
          }
 
+         if (a + b + c + d == 24)
+            return String.Format("{0}{1}{2}{3}{4}{5}{6}", a, "+", b, "+", c, "+", d);
          return "2*2*2*3";
       }
    }

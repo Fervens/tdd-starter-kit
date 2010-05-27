@@ -33,5 +33,13 @@ namespace Tests
       {
          solver.Solve(0, 1, 1, 1);
       }
+
+      [Test]
+      public void Solver_Can_Solve_Addition_Problems()
+      {
+         string solution = solver.Solve(6, 6, 6, 6);
+
+         Assert.AreEqual("6+6+6+6", solution);
+      }
    }
 }
